@@ -1,0 +1,53 @@
+body {
+  background-image: url("../images/peonias.jpg");
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: hsla(0,0%,100%,0.70);
+  background-blend-mode: overlay;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.firstview {
+  display: grid;
+  grid-template-rows: : 1fr 1fr 1fr ;
+  margin: 20%;
+}
+.firstview > span:first-child{
+  font-size: 1.5rem;
+}
+#minombre {
+font-size: 4rem;
+font-weight: bolder;
+text-align: center;
+font-variant:
+}
+.firstview > span:last-child {
+  text-align: left;
+  font-size: 2.0rem;
+}
+
+
+#everything-list {
+  margin-left: 0;
+  margin-right:0;
+}
+#options-container {
+display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 0;
+margin-left: 20%;
+margin-right: 20%;
+}
+#options-container > li a {
+  width: 7rem;
+  display:inline-block;
+  margin: 10%;
+  background-color: rgb(249, 247, 242);
+}
