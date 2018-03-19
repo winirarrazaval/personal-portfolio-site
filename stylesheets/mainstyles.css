@@ -10,6 +10,13 @@ a {
   text-decoration: none;
   color: gray;
 }
+p  {
+margin: 20%;
+font-size: 2rem;
+}
+p::first-letter {
+  font-size: 3rem;
+}
 
 nav ul {
   display: grid;
@@ -32,11 +39,7 @@ nav ul > li:first-child {
 nav ul > li:last-child {
   padding-right: 1rem;
 }
-.ul-container-flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+
 footer {
 }
 footer ul {

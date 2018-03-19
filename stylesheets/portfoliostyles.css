@@ -1,14 +1,23 @@
+
+
+#projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 #projects li {
-  display: grid;
-  grid-column: 1fr 1fr;
+margin: 10px
 }
 #projects a {
    font-size: 1.3rem;
-   width:
+   width: 50%;
+   float:left;
+
 }
 #projects img {
+  margin-right: 2px;
+  display: block;
   max-width: 100%;
   max-height: 5rem;
   border: 3px solid #aaa;
-
 }

@@ -1,0 +1,20 @@
+
+p span {
+  display: block;
+}
+p::first-letter {
+  font-size: 3rem;
+}
+p strong {
+  font-weight:600;
+  font-size: 2rem;
+}
+section {
+padding-left: 20%;
+padding-right: 20%;
+height: 10%;
+}
+section img {
+  border: 5px solid #aaa;
+  max-width: 100%;
+}
