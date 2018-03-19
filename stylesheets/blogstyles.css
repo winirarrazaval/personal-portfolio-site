@@ -1,0 +1,73 @@
+#everything-list {
+  margin-left: 0;
+  margin-right:0;
+}
+
+#options-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(241, 227, 235);
+}
+#options-container li a {
+  width: 7rem;
+  height: 7rem;
+  display: block;
+  margin: 10%;
+  text-align: center;
+  border: 2px solid #aaa;
+  background-color: rgb(241, 227, 235);
+}
+#options-container li a:hover {
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+
+  font-size: 0;
+}
+#family a:hover {
+  background: url("../images/family.jpg");
+  z-index: 1;
+  background-color: hsla(0,0%,100%,0.20);
+  background-blend-mode: overlay;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#baking a:hover {
+  background: url("../images/pielimon.jpg");
+
+}
+#knitting a:hover {
+  background: url("../images/babyknit.jpg");
+}
+#eating a:hover {
+  background: url("../images/paella.jpg");
+}
+#travelling a:hover {
+  background: url("../images/mountreiner.jpg");
+}
+#chile a:hover {
+  background: url("../images/zapallarninos.jpg");
+}
+#volunteering a:hover {
+  background: url("../images/plymouth.png");
+}
+#music a:hover {
+  background: url("../images/reimomo.jpg");
+}
+#puzzles a:hover {
+  background: url("../images/puzzle.jpg");
+}
+#legos a:hover {
+background: url("../images/lego.jpg")
+}
+#coding a:hover {
+  background: url("../images/ruby.png")
+}
+#series a:hover {
+  background: url("../images/madmen.jpg")
+}
