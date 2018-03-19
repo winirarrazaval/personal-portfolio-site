@@ -18,22 +18,90 @@ p {
   margin-right: 20%;
   background-color: rgb(241, 227, 235);
 }
+#options-container li {
+  width: 7rem;
+  height: 7rem;
+  display: block;
+  position: relative;
+  overflow: hidden;
+}
 #options-container li a {
   width: 7rem;
   height: 7rem;
   display: block;
   margin: 10%;
   text-align: center;
-  border: 2px solid #aaa;
-  background-color: rgb(241, 227, 235);
+  border: 2px solid gray;
 }
+#options-container li a {
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+}
+#family a {
+  background-color: rgb(182, 139, 165);
+  color: white;
+  font-size: 1.5rem;
+}
+#baking a {
+  background: url("../images/pielimon.jpg");
+  font-size: 0;
+}
+#eating a {
+  background-color: rgb(209, 157, 198);
+  color: white;
+  font-size: 1.5rem;
+}
+#coding a {
+  background-color: rgb(137, 173, 127);
+  color: white;
+  font-size: 1.5rem;
+}
+#knitting a {
+  background: url("../images/babyknit.jpg");
+  font-size: 0;
+}
+#series a {
+  background-color: rgb(90, 129, 116);
+  color: white;
+  font-size: 1.5rem;
+}
+#travelling a {
+  background-color: rgb(167, 195, 158);
+  color: white;
+  font-size: 1.5rem;
+}
+#chile a {
+  background: url("../images/zapallarninos.jpg");
+  font-size: 0;
+}
+#volunteering a {
+  background-color: rgb(121, 160, 218);
+  color: white;
+  font-size: 1.5rem;
+}
+#music a{
+  background: url("../images/reimomo.jpg");
+  font-size: 0;
+}
+#puzzles a {
+  background-color: rgb(119, 124, 163);
+  color: white;
+  font-size: 1.5rem;
+}
+#legos a {
+  background-color: rgb(194, 160, 179);
+  color: white;
+  font-size: 1.5rem;
+}
+
+
 #options-container li a:hover {
   background-size: cover;
   background-repeat:no-repeat;
   background-position: center;
-
-  font-size: 0;
 }
+
 #family a:hover {
   background: url("../images/family.jpg");
   z-index: 1;
@@ -44,10 +112,18 @@ p {
 }
 #baking a:hover {
   background: url("../images/pielimon.jpg");
+  z-index: 1;
+  background-color: hsla(0,0%,100%,0.50);
+  background-blend-mode: overlay;
+  font-size: 2rem;
 
 }
 #knitting a:hover {
   background: url("../images/babyknit.jpg");
+  z-index: 1;
+  background-color: hsla(0,0%,100%,0.50);
+  background-blend-mode: overlay;
+  font-size: 2rem;
 }
 #eating a:hover {
   background: url("../images/paella.jpg");
@@ -57,18 +133,26 @@ p {
 }
 #chile a:hover {
   background: url("../images/zapallarninos.jpg");
+  z-index: 1;
+  background-color: hsla(0,0%,100%,0.50);
+  background-blend-mode: overlay;
+  font-size: 2rem;
 }
 #volunteering a:hover {
   background: url("../images/plymouth.png");
 }
 #music a:hover {
   background: url("../images/reimomo.jpg");
+  z-index: 1;
+  background-color: hsla(0,0%,100%,0.50);
+  background-blend-mode: overlay;
+  font-size: 2rem;
 }
 #puzzles a:hover {
   background: url("../images/puzzle.jpg");
 }
 #legos a:hover {
-background: url("../images/lego.jpg")
+  background: url("../images/lego.jpg")
 }
 #coding a:hover {
   background: url("../images/ruby.png")
